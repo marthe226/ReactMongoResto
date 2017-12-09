@@ -1,0 +1,58 @@
+body, input, span, div {
+  font-family: sans-serif;
+}
+body {
+  width: 90%;
+  padding-left: 5%;
+}
+table {
+  width: 100%;
+  background-color: lightgrey;
+}
+table td {
+    font-size: .8em;
+}
+input[type=text] {
+  border: 1px solid #cccccc;
+  padding: .4em .4em;
+  border-radius: .2em;
+}
+#title {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: .1em;
+}
+#search {
+  float: right;
+  margin-bottom: .2em;
+  background-image: url("./pictures/search.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  padding-left:30px;
+  font-size: .9em;
+}
+#header {
+  font-weight: bold;
+  background-color: darkgray;
+  cursor: pointer;
+}
+.odd {
+  background-color: #f1f0f0;
+}
+.even {
+  background-color: #ffffff;
+}
+.over {
+  background-color: #d4d2d2;
+  cursor: pointer;
+}
+#footer {
+  float: right;
+  font-size: .8em;
+  padding-bottom: 10px;
+}
+#footer img {
+  margin-top: 2px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
